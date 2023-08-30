@@ -1,0 +1,25 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    wait-time-in-ms-when-sync-empty: 0
+spring:
+  security:
+    user:
+      name: heaven
+      password: 9lbr62wlprepohoqiruXedruDri2lnuVAz9
+  application:
+    name: eureka-server
+  cloud:
+    compatibility-verifier:
+      enabled: false
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  tracing:
+    sampling:
+      probability: 1.0
+server:
+  port: 8761
