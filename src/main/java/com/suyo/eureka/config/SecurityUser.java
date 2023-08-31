@@ -1,4 +1,4 @@
-package com.example.eureka.config;
+package com.suyo.eureka.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

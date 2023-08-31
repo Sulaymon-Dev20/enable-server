@@ -1,4 +1,4 @@
-package com.example.eureka.config;
+package com.suyo.eureka.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
