@@ -7,7 +7,7 @@ spring:
       name: heaven
       password: 9lbr62wlprepohoqiruXedruDri2lnuVAz9
   application:
-    name: eureka-server
+    name: '@name@'
   cloud:
     compatibility-verifier:
       enabled: false
